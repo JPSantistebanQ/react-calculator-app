@@ -11,3 +11,39 @@
     flex-direction: column;
     justify-content: flex-end;
 }
+
+.calculator__btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.625em;
+    flex-grow: 4;
+}
+
+.calculator__btns button {
+    border: 0;
+    outline: 0;
+    border-radius: 0.625em;
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: var(--txt-color);
+}
+
+.calculator__result {
+    position: relative;
+    margin-bottom: 1.25em;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.calculator__result__exp {
+    font-size: 3.5rem;
+    line-height: 1;
+    transform-origin: right bottom;
+    transition: transform 0.3s ease;
+    color: var(--calc-res-color);
+}

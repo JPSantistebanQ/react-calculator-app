@@ -9,6 +9,11 @@
     --calc-bg: #fff;
 }
 
+.dark {
+  --calc-res-color: #fff;
+  --calc-bg: #373737;
+}
+
 * {
   padding: 0;
   margin: 0;

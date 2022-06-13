@@ -7,11 +7,11 @@ import styles from './styles.module.css'
 const Calculator = () => {
 	return (
 		<div className={styles.calculator}>
-			<div>
-				<div>20*5</div>
-				<div>100</div>
+			<div className={styles.calculator__result}>
+				<div className={styles.calculator__result__exp}>20*5</div>
+				<div className={styles.calculator__result__exp}>100</div>
 			</div>
-			<div>
+			<div className={styles.calculator__btns}>
 				{buttons.map((item, i) => (
 					<BtnAction key={i} item={item} />
 				))}
