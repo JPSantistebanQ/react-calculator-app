@@ -1,0 +1,13 @@
+.calculator {
+    padding: 1.25em;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    border-radius: 1.25em;
+    background-color: var(--calc-bg);
+    box-shadow: rgba(100, 100, 111, 0.2) 0em 0.4375em 1.8125em 0em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
